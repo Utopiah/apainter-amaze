@@ -30,3 +30,4 @@ require('./brushes/single-sphere.js');
 require('./brushes/torus.js');
 require('./brushes/disco.js');
 require('./brushes/mic.js');
+require('./brushes/scale.js');
