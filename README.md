@@ -7,7 +7,7 @@ You can find in src/brushes the custom brushes with stamps.js the stamp ones
 In src/bruches/mic.js you can find the reactive brushes using the microphone
 
 1. what's VR
-  * why would you want to use such a thing with non free software?
+    * why would you want to use such a thing with non free software?
 2. what's VR on the web?
   * a link, a new world
     * again, with source code your can read, remix
