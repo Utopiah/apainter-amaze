@@ -1,10 +1,10 @@
 Welcome to the AMaze advanced Apainter repo
 
-You can find in testfiles the JSON to include using ?urljson=file and test your custom brushes
+You can find in `testassets` the JSON to include using `?urljson=file` and test your custom brushes
 
-You can find in src/brushes the custom brushes with stamps.js the stamp ones
+You can find in `src/brushes` the custom brushes with `stamps.js` the stamp ones
 
-In src/bruches/mic.js you can find the reactive brushes using the microphone
+In `src/bruches/mic.js` you can find the reactive brushes using the microphone
 
 
 ![preview video](http://vatelier.net/MyDemo/apainter-amaze2017/a-painter/preview-reactive.jpg)
@@ -29,7 +29,7 @@ In src/bruches/mic.js you can find the reactive brushes using the microphone
       * reactive to sound
         * well I kind of have done that now...
       * select and grab
-        * can be done with the Vive raycaster component
+        * can be done via https://github.com/bryik/aframe-controller-cursor-component but might be tricky with existing apainter controllers
       * your crazy idea?
 4. what's aframe
     * bring VR for web developpers
@@ -46,8 +46,6 @@ In src/bruches/mic.js you can find the reactive brushes using the microphone
         * http://vatelier.net/MyDemo/apainter-amaze2017/a-painter/?urljson=amaze-mozilla.json
       * line
         * http://vatelier.net/MyDemo/apainter-amaze2017/a-painter/?urljson=amaze-amaze.json
-      * mesh
-        * ?
       * animated mesh
         * http://vatelier.net/MyDemo/apainter-amaze2017/a-painter/?urljson=amaze-torus.json
       * animated via shader
@@ -56,13 +54,18 @@ In src/bruches/mic.js you can find the reactive brushes using the microphone
         * http://vatelier.net/MyDemo/apainter-amaze2017/a-painter/?urljson=amaze-mic.json
       * use a saved stroke to test your new stroke
         * https://medium.com/@msfeldstein/make-a-vr-paintbrush-in-a-painter-68f802716cf9
+      * change behavior entirely
     * use the inspector to move meshes around, scale, add components, etc
       * use "a-stroke" class to programmatically modify your drawings
-      * e.g. my own scaling "brush"
+        * e.g. my own scaling "brush" cf src/brushes/scale.js
     * export: threejs export, scene export
       * re-use in apainter, re-use in apainter
       * no need to install anything to iterate on a drawing, on own drawing and other people drawings
       * 360 screenshots with ctrl-alt-shift-s
+7. examples of different sky, here Berlin
+  * http://vatelier.net/MyDemo/apainter-amaze2017/a-painter/?sky=./eq/360_0024_pano.jpg_small.jpg
+  * http://vatelier.net/MyDemo/apainter-amaze2017/a-painter/?sky=BerlinByNight.jpg
+
 
 * dream
     * torus trip down in flight to Switzerland
@@ -71,8 +74,4 @@ In src/bruches/mic.js you can find the reactive brushes using the microphone
 
 * references
   * https://github.com/JamsCenter/PaintingJam_EditionJan2017/wiki#references
-
-* examples
-  * http://vatelier.net/MyDemo/apainter-amaze2017/a-painter/?sky=BerlinByNight.jpg
-  * http://vatelier.net/MyDemo/apainter-amaze2017/a-painter/?sky=./eq/360_0024_pano.jpg_small.jpg
 
