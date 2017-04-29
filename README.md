@@ -6,6 +6,10 @@ You can find in src/brushes the custom brushes with stamps.js the stamp ones
 
 In src/bruches/mic.js you can find the reactive brushes using the microphone
 
+
+![preview video](http://vatelier.net/MyDemo/apainter-amaze2017/a-painter/preview-reactive.jpg)
+[preview video link](https://www.youtube.com/watch?v=SqKMbFhC49g)
+
 1. what's VR
     * why would you want to use such a thing with non free software?
 2. what's VR on the web?
